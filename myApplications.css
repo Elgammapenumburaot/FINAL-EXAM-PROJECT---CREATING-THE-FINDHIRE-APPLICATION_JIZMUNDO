@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #2d6a4f; /* Green navbar */
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background-color: #1b5d3e; /* Darker green on hover */
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #2d6a4f; /* Green color */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.applications-list {
+    list-style: none;
+    padding: 0;
+}
+
+.application-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.application-item h3 {
+    font-size: 18px;
+    color: #2d6a4f;
+    margin-bottom: 10px;
+}
+
+.application-item p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.application-item a {
+    color: #2d6a4f;
+    text-decoration: none;
+}
+
+.application-item a:hover {
+    text-decoration: underline;
+}
+
+.no-applications {
+    font-size: 16px;
+    color: #777;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 30px;
+}
